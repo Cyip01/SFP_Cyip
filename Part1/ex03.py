@@ -3,11 +3,11 @@ string1 = "MaRviN THE bOt"
 
 
 #convert to lowercase
-string_lower = string1.lower(marvin the bot)
+string_lower = string1.lower()
 
 
 #convert to uppercase
-string_upper = string1.upper(MARTIN THE BOT)
+string_upper = string1.upper()
 
 
 #remove spaces

@@ -1,17 +1,21 @@
-# Original text
-string = 'MaRviN THE bOt'
+#Original text
+string1 = "MaRviN THE bOt"
 
-# convert to lowercase
-string_lower = string_lower()
 
-# convert to uppercase 
-string_upper = string_upper()
+#convert to lowercase
+string_lower = string1.lower(marvin the bot)
 
-# remove spaces
-string_replace = string_replace(chr(32), '')
+
+#convert to uppercase
+string_upper = string1.upper(MARTIN THE BOT)
+
+
+#remove spaces
+string_nospace = string1.replace(" ","")
+
 
 # Print results
-print(string)
+print(string1)
 print(string_lower)
 print(string_upper)
-print(string_replace)
+print(string_nospace)
